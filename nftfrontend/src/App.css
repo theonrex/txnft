@@ -8,6 +8,12 @@
         transform: translate3d(0, 0, 1px) rotate(360deg);
     }
 }
+body{
+  background-color: #131017;
+}
+nav{
+  padding: 2em 0 !important;
+}
 
 .background {
     position:absolute;
@@ -15,7 +21,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    /* background: #3E1E68; */
+    background: #030203;
     overflow: hidden;
 }
 
@@ -366,7 +372,9 @@ img{
 }
 /* footet */
 footer{
+background-color: #030203;
   padding-top: 6em !important;
+  padding-bottom: 3em;
   display: flex;
   position: relative;
   width: 100%;
@@ -387,6 +395,9 @@ footer{
 }
 .marketplace_row{
   display: table;
+}
+.tokenIdsMinted{
+  font-size: 1.5em;
 }
 @media screen and (max-width: 1000px) {
   .imgGrid {

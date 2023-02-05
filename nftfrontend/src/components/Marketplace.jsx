@@ -127,7 +127,10 @@ export default function Marketplace() {
       <div className="marketplace_row">
         <div className="">
           <button>{renderButton()}</button>
-          <div>{tokenIdsMinted}/100 have been minted</div>
+          <div className="tokenIdsMinted">
+            {" "}
+            {tokenIdsMinted}/10000 have been minted.
+          </div>
         </div>
       </div>
     </div>
